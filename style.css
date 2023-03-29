@@ -1,0 +1,56 @@
+body{
+    margin: auto;
+}
+.all_monitor{
+    background: linear-gradient(to top, #33ccff 0%, #ff99cc 100%);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+h1{
+    text-align: center;
+    color: white;
+    position: relative;
+    top: 50px;
+}
+img{
+    height: 150px;
+    width: 150px;
+}
+html,
+body,
+.all{
+    width: 100%;
+    height: 100vh;
+}
+
+.all{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.box1, .box2, .box3, .box4{
+    width: 320px;
+    height: 300px;
+    background-color: azure;
+    margin: 15px;
+    padding: 5px;
+    color: whitesmoke;
+    text-align: center;
+    transition: .3s ease-in-out;
+    border: 2px black solid;
+    border-radius: 45px;
+}
+.box1:hover,
+.box2:hover,
+.box3:hover,
+.box4:hover{
+    background-color: rgba(112, 11, 226, 0.2);
+}
+p{
+    color: #ff99cc;
+}
